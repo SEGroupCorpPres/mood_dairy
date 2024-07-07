@@ -157,7 +157,7 @@ class _ChangeStatusScreenState extends State<ChangeStatusScreen> {
                 ),
                 AnimatedContainer(
                   duration: const Duration(milliseconds: 300),
-                  height: !isSelect ? 0 : 180.h,
+                  height: !isSelect ? 0 : 190.h,
                   curve: Curves.easeInOut,
                   width: !isSelect ? 0 : size.width,
                   padding: EdgeInsets.all(isSelect ? 20.0 : 0).r,
